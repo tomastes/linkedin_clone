@@ -1,0 +1,67 @@
+.Header_Con {
+  background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgba(199, 199, 199, 0.363);
+  padding-top: .5rem;
+}
+.Header_left {
+  display: flex;
+  flex-direction: row;
+
+  padding: 0.5rem;
+}
+.Header_left > img {
+  object-fit: contain;
+  height: 40px;
+  margin-left: 10px;
+}
+.Input_container {
+  display: flex;
+  background: rgb(238, 243, 247);
+  height: 22px;
+  padding: 10px;
+  margin-left: 10px;
+  color: grey;
+  border-radius: 5px;
+}
+.Input_container > input {
+  background: none;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.Header_right {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  margin-right: 10%;
+  justify-content: space-evenly;
+}
+.Icon_con {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-left: 20px;
+  color: grey;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.Icon_con:hover{
+    color: black;
+}
+
+ .MuiSvgIcon-root,.MuiAvatar-root{
+    object-fit: contain !important;
+    width: 28px !important;
+    height: 28px !important;
+}
